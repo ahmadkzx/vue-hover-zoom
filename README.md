@@ -17,7 +17,7 @@ import  VueHoverZoom  from  'vue-hover-zoom'
 3. Add component to components:
 ```javascript
 components: {  
-	VueHoverZoom  
+  VueHoverZoom  
 }
 ```
 
