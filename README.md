@@ -30,7 +30,7 @@ components: {
 
 ### ✅ Config
 
-You can config HoverZoom Component with props.
+You can config VueHoverZoom Component with props.
 
 ⚙ imageUrl:  
 ❗ Required  
