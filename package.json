@@ -1,12 +1,12 @@
 {
   "name": "vue-hover-zoom",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "license": "MIT",
   "author": "Ahmad Karimzade",
-	"description": "Vue Hover to Zoom Image",
+	"description": "Easy to use package for zoom image when hover on it with the mouse cursor",
   "homepage": "https://github.com/ahmadkzx/vue-hover-zoom#readme",
-	"main": "./dist/vue-router-loading.common.js",
+	"main": "./dist/vue-hover-zoom.common.js",
   "scripts": {
     "build": "vue-cli-service build --target lib --name vue-hover-zoom ./src/main.js"
   },
