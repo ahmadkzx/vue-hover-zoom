@@ -10,7 +10,7 @@ Easy to use package for zoom image when hover on it with the mouse cursor
 npm install vue-hover-zoom
 ```
 
-2. Import component in App.vue:
+2. Import component:
 ```javascript
 import  VueHoverZoom  from  'vue-hover-zoom'
 ```
