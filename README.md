@@ -34,7 +34,6 @@ You can config VueHoverZoom Component with props.
 
 ⚙ imageUrl:  
 ❗ Required  
-🔹 default: #41b883  
 
 ⚙ imageAlt:  
 🔹 default: null   
@@ -56,5 +55,5 @@ If you enable this, image shows when fully loaded
 
 
 ### 📌 Note  
-You can select the element in css and set image width.
+You can select the element in css and set image width.  
 default class: hover-zoom-image
