@@ -1,5 +1,9 @@
 <template>
-  <div :class="['hover-zoom-image', animation, { 'zoom-cursor': zoomCursor }, { 'show': isActive || !showWhenImageLoaded }]" @mousemove="zoom($event)" :style="`background-image:url('${imageUrl}');background-size: ${zoomPercent}%;`">
+  <div
+    @mousemove="zoom($event)"
+    :style="`background-image: url('${imageUrl}'); background-size: ${zoomPercent}%;`"
+    :class="['hover-zoom-image', animation, { 'zoom-cursor': zoomCursor }, { 'show': isActive || !showWhenImageLoaded }]"
+  >
     <img :src="imageUrl" :alt="imageAlt" loading="lazy">
   </div>
 </template>
